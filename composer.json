@@ -1,0 +1,25 @@
+{
+    "name": "dotext/laravel-adn-sms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fardin Ahsan",
+            "email": "fardin.ahsan75@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DoText\\LaravelAdnSms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DoText\\LaravelAdnSms\\Providers\\AdnSmsServiceProvider"
+            ]
+        }
+    }
+}
